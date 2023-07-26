@@ -5,7 +5,7 @@ public class MusicTest {
         try{
             Sequencer  sequencer = MidiSystem.getSequencer();
             
-            int i = 11;
+            int i = 1;
             if(i>10){
                 throw new badex();
             }
