@@ -1,3 +1,5 @@
+package xtc.qpage;
+
 import java.awt.Color;
 import java.awt.GradientPaint;
 import java.awt.Graphics;
@@ -5,8 +7,8 @@ import java.awt.Graphics2D;
 
 import javax.swing.*;
 
-class drawpanel extends JPanel{
-    
+public class drawpanel extends JPanel{
+   
     public void paintComponent(Graphics g){
         Graphics2D g2d = (Graphics2D) g;
 

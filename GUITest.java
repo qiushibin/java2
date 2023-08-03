@@ -1,5 +1,7 @@
 import javax.swing.*;
 
+import xtc.qpage.drawpanel;
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.event.*;
@@ -60,7 +62,7 @@ public class GUITest {
         frame.getContentPane().add(BorderLayout.CENTER, dp);
         frame.setSize(500, 300);
         frame.setVisible(true);
-        frame.setTitle("ddGUIdd");
+        frame.setTitle("Title qtest");
 
     }
 
